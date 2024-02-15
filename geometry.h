@@ -17,7 +17,7 @@ void PrintPoint(Point a) {
     std::cout <<  a.x << " " << a.y  << '\n';
 }
 
-Point ReadPoint(Point& number) {
+Point ReadPoint() {
     Point point;
     std::cin >> point.x >> point.y;
     return point;
