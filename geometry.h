@@ -17,9 +17,8 @@ void PrintPoint(Point a) {
     std::cout <<  a.x << " " << a.y  << '\n';
 }
 
-void ReadPoint(Point& number) {
-    int first, second;
-    std::cin >> first >> second;
-    number.x = first;
-    number.y = second;
+Point ReadPoint(Point& number) {
+    Point point;
+    std::cin >> point.x >> point.y;
+    return point;
 }
